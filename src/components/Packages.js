@@ -51,6 +51,7 @@ const Packages = () => {
   };
 
   const handleDate = (date) => {
+    setPage(1);
     if (date === "All") {
       setDate("");
     } else {
@@ -59,6 +60,7 @@ const Packages = () => {
   };
 
   const handleType = (type) => {
+    setPage(1);
     if (type === "All") {
       setCondition("");
     } else {
@@ -66,6 +68,7 @@ const Packages = () => {
     }
   };
   const handlePlace = (place) => {
+    setPage(1);
     if (place === "All") {
       setPlace("");
     } else {
